@@ -46,3 +46,18 @@ function createContentPage() {
     );
 	return;
 }
+
+// onSuccess: Obtiene el resultado
+//
+function onSuccess(acceleration) {
+    alert('Aceleration X: '  + acceleration.x + '\n' +
+          'Aceleration Y: '  + acceleration.y + '\n' +
+          'Aceleration Z: '  + acceleration.z + '\n' +
+          'Timestamp: '      + acceleration.timestamp + '\n');
+}
+
+// onError: Ocurrio un error
+//
+function onError() {
+    alert('onError!');
+}

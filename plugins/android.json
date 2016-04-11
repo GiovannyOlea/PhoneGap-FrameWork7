@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.Giovanny.MyApp"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.Giovanny.MyApp"
         }
     },
     "dependent_plugins": {}
